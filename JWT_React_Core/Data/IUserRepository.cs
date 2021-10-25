@@ -10,5 +10,7 @@ namespace JWT_React_Core.Data
     {
         User Create(User user);
         User GetUserByEmail(string email);
+        User GetUserById(int id);
+
     }
 }
